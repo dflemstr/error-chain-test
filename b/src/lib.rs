@@ -4,6 +4,6 @@ extern crate a;
 
 error_chain! {
     links {
-        a::Error, A;
+        A(a::Error, a::ErrorKind);
     }
 }

@@ -3,5 +3,5 @@ authors = ["David Flemström <dflemstr@spotify.com>"]
 name = "a"
 version = "0.1.0"
 
-[dependencies]
-error-chain = "0.6.2"
+[dependencies.error-chain]
+git = "https://github.com/brson/error-chain.git"
